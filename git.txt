@@ -27,4 +27,8 @@ git checkout -f {to get all files recovered to the previously committed version}
 
 git diff [file name] or git diff {Show changes between working directory and staging area}
 
-git diff --staged
+git diff --staged {this is another way}
+
+git rm --cached [file name] {to remove only from staging make it untrack}
+
+git rm [file name] {deletes the file}
