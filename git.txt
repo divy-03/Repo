@@ -20,3 +20,7 @@ git commit              {to commit all the files}
         Initial commit   
     then, press Esc and enter   
         :wq
+
+git checkout [file name] {to get a file recovered to the previously committed version}
+
+git checkout -f {to get all files recovered to the previously committed version}
