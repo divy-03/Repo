@@ -24,3 +24,7 @@ git commit              {to commit all the files}
 git checkout [file name] {to get a file recovered to the previously committed version}
 
 git checkout -f {to get all files recovered to the previously committed version}
+
+git diff [file name] or git diff {Show changes between working directory and staging area}
+
+git diff staged
