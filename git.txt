@@ -1,0 +1,22 @@
+git config --global user.name 
+git config --global user.email
+
+code . {to open code editor}
+
+git init {to initialize an existing directory as a Git repository}
+
+git status {to check status}
+
+git add [file name] {to add a file}
+
+git add -A {to add all files at once}   
+
+touch [file name] {to create a file}
+
+git commit -m "message" {to commit all the files}
+
+git commit              {to commit all the files}
+    then, press i and enter
+        Initial commit   
+    then, press Esc and enter   
+        :wq
