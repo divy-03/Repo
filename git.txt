@@ -34,3 +34,9 @@ git rm --cached [file name] {to remove only from staging make it untrack}
 git rm [file name] {deletes the file}
 
 git status -s
+
+touch .gitignore  {inside this file write the name of files to ignore them from being tracked}
+    [file name]     {ignores files from every with same name}
+    [/file name]    {ignores files from only root where .gitignore file is}
+    [*.ext]         {ignore files with same extension that you entered}
+        
