@@ -1,7 +1,11 @@
+git --version   {show version name}
+
 git config --global user.name 
 git config --global user.email
 
-code . {to open code editor}
+code .  {to open code editor}
+
+ls  {list all the files in the directory}
 
 git init {to initialize an existing directory as a Git repository}
 
@@ -33,10 +37,25 @@ git rm --cached [file name] {to remove only from staging make it untrack}
 
 git rm [file name] {deletes the file}
 
-git status -s
+git status -s       {status in short}
 
 touch .gitignore  {inside this file write the name of files to ignore them from being tracked}
     [file name]     {ignores files from every with same name}
     [/file name]    {ignores files from only root where .gitignore file is}
     [*.ext]         {ignore files with same extension that you entered}
         
+mkdir [directory name]  {creates new directory}
+
+cd [directory name]     {changes between directory}
+
+git branch [branch name]  {creates new branch}
+
+git branch      {shows all the branches}
+
+git checkout [branch name]  {switch to branch}
+
+git checkout -b [branch name] {creates as well as switch to the branch}
+
+git merge [branch name]     {merges the current branch with the branch name we include}
+
+git branch -d [branch name] {deletes the branch}
